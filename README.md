@@ -6,7 +6,7 @@ JiotBFS is a Java program that implements the breadth-first search algorithm and
 # Building
 JiotBFS can be build using gradle command: 
 
-    gradle build
+    gradle jar
     
 The built jar will be located in directory `/build/libs/`
 
