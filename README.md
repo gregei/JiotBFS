@@ -16,3 +16,7 @@ The built jar will be located in directory `/build/libs/`
 Use:
 
     java -jar jiobfs.jar
+    
+# Resources
+
+* [Breadth First Search or BFS for a Graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph)
