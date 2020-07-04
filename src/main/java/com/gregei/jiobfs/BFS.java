@@ -47,7 +47,7 @@ public class BFS {
         visited[source.x][source.y] = true;
 
         queue = new LinkedList<>();
-        queue.push(new Node(source, 0));
+        queue.add(new Node(source, 0));
 
         // A loop pushing points we can move to a queue and then queuing points on a path until we reach our destination or it reaches the end
         // of that path. If it reaches the end then it backtracks and tries another path until the destination is reached.
@@ -70,7 +70,7 @@ public class BFS {
                 if (isValid(row, col) && (grid[row][col] == 1) && !visited[row][col]) {
                     visited[row][col] = true;
                     Node ajd = new Node(new Point(row, col), current.distance + 1);
-                    queue.push(ajd);
+                    queue.add(ajd);
                     points.add(new Point(row, col));
                 }
             }
@@ -86,7 +86,6 @@ public class BFS {
      * @return is this space valid to move to
      */
     private boolean isValid(int row, int col) {
-        return (row >= 0) && (row < ROWS) &&
-                (col >= 0) && (col < COLS);
+        return (row >= 0) && (row < ROWS) && (col >= 0) && (col < COLS);
     }
 }
