@@ -6,7 +6,7 @@ JiotBFS is a Java program that implements the breadth-first search algorithm and
 ![JiotBFS running](docs/images/showcase.png)
 
 # Building
-JiotBFS can be build using gradle command: 
+Java Implementation Of The Breadth First Search can be build using gradle command: 
 
     gradle jar
     
