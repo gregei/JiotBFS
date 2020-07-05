@@ -1,7 +1,7 @@
 # JiotBFS
 [![Build Status](https://travis-ci.org/gregei/JiotBFS.svg?branch=master)](https://travis-ci.org/gregei/JiotBFS)
 
-Java Implementation of The Breadth-First Search is a Java program that implements the breadth-first search algorithm and visually displays the path the algorithm took to reach its destination.
+Java implementation of the Breadth-First Search is a Java program that implements the breadth-first search algorithm and visually displays the path the algorithm took to reach its destination.
 
 ![JiotBFS running](docs/images/showcase.png)
 
