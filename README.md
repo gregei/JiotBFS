@@ -1,5 +1,5 @@
 # JiotBFS
-[![Build Status](https://travis-ci.org/gregei/JiotBFS.svg?branch=master)](https://travis-ci.org/gregei/JiotBFS)
+[![Build Status](https://travis-ci.org/gregorygaines/JiotBFS.svg?branch=master)](https://travis-ci.org/gregorygaines/JiotBFS)
 
 JiotBFS(Java implementation of the Breadth-First Search) is a Java program that implements the breadth-first search algorithm and visually displays the path the algorithm took to reach its destination.
 
